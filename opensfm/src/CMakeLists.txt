@@ -43,7 +43,7 @@ include_directories(${GFLAGS_INCLUDE_DIR})
 find_package(Glog REQUIRED)
 include_directories(${GLOG_INCLUDE_DIR})
 
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 2.4.11 EXACT REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 find_package(Boost COMPONENTS python REQUIRED)
